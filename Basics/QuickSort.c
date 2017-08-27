@@ -28,8 +28,8 @@ void quicksort(int arr[], int l, int r)
     if (l < r)
     {
         int pi=partition(arr, l, r);
-	quicksort(arr, l, pi-1);
-	quicksort(arr, pi+1, r);
+		quicksort(arr, l, pi-1);
+		quicksort(arr, pi+1, r);
     }
 }
  
